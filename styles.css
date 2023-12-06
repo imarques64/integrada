@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: #A5A5A5;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+
+h3{
+    color: #252525;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+
+header{
+    padding: 30px 4%;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .interface{
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #8b8b8b;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #F2F2F2;
+    transform: scale(1.10);
+}
+
+header nav.menu ul{
+    list-style-type: none;
+}
+
+header nav.menu ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20px;
+}
+
+header .interface .logo{
+    cursor: pointer;
+}
+
+/* CONTEÚDO */
+section.inicio{
+    padding: 40px 4%;
+}
+
+section.inicio .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.inicio .txt-inicio h1{
+    color:#252525;
+    font-size: 60px;
+    line-height: 40px;
+}
+
+.inicio .txt-inicio h1 > span{
+    color: #F2F2F2;
+}
+
+.inicio .txt-inicio p{
+    color: #252525;
+    font-size: 20px;
+    margin: 40px 0;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.inicio .img-inicio img{
+    position: relative;
+    border-radius: 5%;
+}
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sobre .txt-sobre h2{
+    color:#252525;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.sobre .txt-sobre h2 > span{
+    color: #F2F2F2;
+}
+
+.sobre .txt-sobre p{
+    margin: 30px 0;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sobre .txt-sobre p span{
+    margin: 30px 0;
+    color: #f2f2f2;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.btn button{
+    text-align: center  ;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #252525;
+    border: 0;
+    border-radius: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn button:hover{
+    box-shadow: 0px 0px 10px #252525;
+    transform: scale(1.05);
+    color: #F2F2F2;
+}
+
+.btn button i{
+    color: #A5A5A5;
+}
+
+.sobre .img-sobre img{
+    position: relative;
+    border-radius: 30%;
+}
+
+
+/* RODAPÉ */
+footer{
+    padding: 40px 4%;
+    margin-top: 40px;
+    background-color: #252525;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+footer .linha-footer p i{
+    color: #F2F2F2;
+    font-size: 20px;
+}
+
+footer .linha-footer p a{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+
+/* TÉCNOLOGIAS */
+.tech{
+    padding: 40px 4%;
+    color: #252525;
+}
+
+.txt-tech p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.tech h2{
+    color: #252525;
+    margin-bottom: 10px;
+    font-size: 30px;
+    display: inline-block;
+    transition: .2s;
+}
+
+.tech h2:hover{
+    color: #F2F2F2;
+    transform: scale(1.05);
+}
+
+/* ÁREAS DO SABER */
+section.area{
+    padding: 80px 4%;
+}
+
+section.area .flex{
+    display: inline-block;
+}
+
+.area .materia{
+    margin: 40px;
+}
+.area .txt-materia h1{
+    color:#252525;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.area .txt-materia h1 > span{
+    color: #F2F2F2;
+}
+
+.area .txt-materia p{
+    color: #252525;
+    font-size: 20px;
+    margin: 30px 0;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.area .img-materia img{
+    position: relative;
+    border-radius: 5%;
+}
